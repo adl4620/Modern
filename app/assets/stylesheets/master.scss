@@ -1,8 +1,52 @@
 @import "bootstrap";
 
-h1 {
+.booyah-box {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: grey;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding: 20px;
+  font-family: "Helvetica Neue", Helvetica;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin:0;
+  padding:0;
+  color: white; 
+  font-family: "Helvetica Neue", Helvetica;
+}
+
+.navbar {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 200;
+  box-shadow: 0px 1px 3px #2a2a2a;
+  background: image_url('lined_paper.png');
+  color: grey
+}
+
+.navbar-inverse a.navbar-brand {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 100;
+  color: grey;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #E3E85A;
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 600;
-  letter-spacing: -1.5px;
-  color: #66194d;
+  letter-spacing: -0.3px;
+}
+
+.link a {
+  color:black;
+}
+
+body {
+  background: image_url('dark-honeycomb.png');
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  color:white;
 }

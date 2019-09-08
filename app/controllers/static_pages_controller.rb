@@ -1,4 +1,4 @@
-class BooksController < ApplicationController
+class StaticPagesController < ApplicationController
   def index
     @books= Book.all
   end
@@ -17,5 +17,4 @@ class BooksController < ApplicationController
   def book_params
     params.require(:book).permit(:name, :author, :description)
   end
-
-end 
+end
